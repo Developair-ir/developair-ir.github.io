@@ -60,4 +60,6 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/img/public.png
+        path: /assets/img/public.jpg
+        height: 250
+        width: 250
