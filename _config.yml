@@ -1,6 +1,7 @@
 url: https://developair.ir
 title: Developair
 email: h4lmed@gmail.com
+
 authors:
   Hamed Moghadasi:
     name: Hamed Moghadasi
@@ -53,3 +54,10 @@ header_pages:
   - about.md
 
 google_analytics: G-BEDD986SZM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/public.png
