@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign author = site.authors[page.author] %}
+
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
@@ -18,11 +18,16 @@ layout: default
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-      {%- if author -%}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name"><a href="https://linkedin.com/in/{{author.linkedin}}" target="_blank">{{ author.display_name }}</a></span>
-          </span>
-      {%- endif -%}</p>
+
+      {%- if page.author -%}
+      • {% for author in page.author %}
+      {% assign authotObject = site.authors[author] %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name"><a href="https://linkedin.com/in/{{authotObject.linkedin}}" target="_blank">{{ authotObject.display_name }}</a></span>
+      </span>
+          {%- if forloop.last == false %}, {% endif -%}
+      {% endfor %}
+    {%- endif -%}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
