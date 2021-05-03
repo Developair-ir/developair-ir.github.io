@@ -1,12 +1,24 @@
+url: https://developair.ir
 title: Developair
-email: admin@developair.ir
-author:
-  name: GitHub
-  email: admin@developair.ir
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+email: h4lmed@gmail.com
+authors:
+  hamed:
+    name: Hamed Moghadasi
+    display_name: Hamed Moghadasi
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: h4lmed@gmail.com
+    linkedin : hamedmoghadasi
+    github: hamedmoghadasi
+  shahrzad:
+    name: shahrzad Jahanbaz
+    display_name: Shahrzad jahanbaz
+    gravatar: 12e480a364a5c19214f99b4dfe9a11d5
+    email: shahrzadJahanbaz@gmail.com
+    linkedin: shahrzadJahanbaz
+    github: shahrzadJahanbaz
+
+description: > 
+  As developers, we share our knowledges at developair.ir.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -30,7 +42,11 @@ theme: minima
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
 
 header_pages:
   - about.markdown
+  - author.markdown
+
+
