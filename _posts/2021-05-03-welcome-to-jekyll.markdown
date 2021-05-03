@@ -2,7 +2,8 @@
 layout: post
 title: "Welcome to C# Programming"
 date: 2021-05-03 02:04:34 +0430
-categories: jekyll update
+category: programming
+tags: tutor csharp developer
 author: Shahrzad Jahanbaz
 ---
 
