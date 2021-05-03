@@ -7,15 +7,19 @@ authors:
     display_name: Hamed Moghadasi
     gravatar: c66919cb194f96c696c1da0c47354a6a
     email: h4lmed@gmail.com
-    linkedin : hamedmoghadasi
-    github: hamedmoghadasi
+    page: authors/hamed
+    linkedin : https://linkedin.coms/in/hamedmoghadasi
+    github: https://github.com/HamedMoghadasi
+    stackoverflow: https://stackoverflow.com/users/6797509/hamed-moghadasi
   Shahrzad Jahanbaz:
     name: Shahrzad Jahanbaz
     display_name: Shahrzad Jahanbaz
     gravatar: 12e480a364a5c19214f99b4dfe9a11d5
     email: shahrzadJahanbaz@gmail.com
-    linkedin: shahrzad-jahanbaz-2b7915141
-    github: shahrzadJahanbaz
+    page: authors/shahrzad
+    linkedin : https://linkedin.coms/in/shahrzad-jahanbaz-2b7915141
+    github: https://github.com/shahrzadJahanbaz
+    stackoverflow: https://stackoverflow.com/users/6797509/hamed-moghadasi
 
 description: > 
   As developers, we share our knowledges at developair.ir.
@@ -46,7 +50,6 @@ plugins:
   - jekyll-seo-tag
 
 header_pages:
-  - about.markdown
-  - author.markdown
+  - about.md
 
 google_analytics: G-BEDD986SZM
