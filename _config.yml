@@ -62,7 +62,7 @@ plugins:
  - jekyll-seo-tag
 
 minima:
-  skin: solarized
+  skin: solarized-dark
 
 header_pages:
   - about.markdown
