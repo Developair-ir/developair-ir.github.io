@@ -65,7 +65,9 @@ footer{
     }
     }
 }
-
+.site-nav {
+    z-index: 1;
+}
 @media only screen and (max-width: 600px) {
     #search-demo-container{
         width: 90%;    
