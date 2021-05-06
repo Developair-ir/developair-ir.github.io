@@ -1,2 +1,46 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+#search-demo-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 50vh;
+    position: relative;
+
+    #search-input{
+        height: 35px;
+        box-shadow: 0 0 11px 0 #e2e2e2;
+        border: 1px solid #929292;
+        font-size: 16px;
+    }
+    #results-container{
+        position: absolute;
+    top: 35px;
+    background: #e4e4e4;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    border: 1px solid #adadad;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    color: black;
+    box-shadow: 0 4px 24px 0 #8080808c;
+    min-width: 49.7vh;
+    
+    li {
+        padding: 5px;
+        border-bottom: 1px dotted #9a9a9a;
+        display: flex;
+
+        &:hover{
+            background-color: darken($color: #e4e4e4, $amount: 3);
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            flex-grow: 1;
+        }
+    }
+    }
+}

@@ -23,7 +23,7 @@ layout: default
       • {% for author in page.author %}
       {% assign authotObject = site.authors[author] %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name"><a href="{{site.baseUrl}}/{{authotObject.page}}" target="_blank">{{ authotObject.display_name }}</a></span>
+        <span class="p-author h-card" itemprop="name"><a href="{{site.baseUrl}}/{{authotObject.page}}">{{ authotObject.display_name }}</a></span>
       </span>
           {%- if forloop.last == false %}, {% endif -%}
       {% endfor %}
