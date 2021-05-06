@@ -44,3 +44,24 @@
     }
     }
 }
+footer{
+    border-top: 1px solid #dadada;
+    .footer-item-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        .footer-item {
+            margin: 2.5px;
+        }
+    }
+    .footer-copyright{
+        display: flex;
+    justify-content: center;
+    color: #b7b3b3;
+    p{
+        position: absolute;
+    }
+    }
+}
