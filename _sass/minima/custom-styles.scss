@@ -68,6 +68,16 @@ footer{
 .site-nav {
     z-index: 1;
 }
+
+.article-header-image{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    opacity: 0.8;
+    filter: grayscale(100%);
+    margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     #search-demo-container{
         width: 90%;    
