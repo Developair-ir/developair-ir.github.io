@@ -10,13 +10,12 @@ description: >
     and for the next will show you how to write gulp tasks in asp.net core 5.0, to automate and 
     enhance your workflow.
 header_image: /assets/img/posts/gulp-dotnet-header.jpeg
-    
+comments: true
 image:
     path: /assets/img/posts/configure-gulp-in-asp-net-core.png
     height: 250
     width: 250
 ---
-
 Modern web development has many repetitive tasks like running a local server, minifying code, optimizing images, preprocessing CSS and more. so [gulp](https://gulpjs.com/) born for automating all these tasks.
 without gulp, we have to do a lot of time-wasting, painful tasks, but with using gulp we can automate all these tasks.
 ### What we’re setting up?
