@@ -2,7 +2,7 @@
 layout: post
 title: "Configure gulp in asp.net core"
 date: 2021-05-07 18:54:34 +0430
-category: configuration
+category: learning
 tags: [gulp,.net core, configure gulp in .net core]
 author: Hamed Moghadasi
 description: > 
