@@ -10,7 +10,6 @@ description: >
     and for the next will show you how to write gulp tasks in asp.net core 5.0, to automate and 
     enhance your workflow.
 header_image: /assets/img/posts/gulp-dotnet-header.jpeg
-comments: true
 image:
     path: /assets/img/posts/configure-gulp-in-asp-net-core.png
     height: 250
